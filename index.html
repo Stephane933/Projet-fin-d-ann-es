@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Blog</title>
+</head>
+<body>
+  <h1 class="animated bounceInDown">Le Blog de Stephane Le-lay</h1>
+
+  <div  class="Menu">
+    <nav role="navigation" class="nav">
+      <ul class="nav-items">
+        <li class="nav-item">
+          <a href="#" class="nav-link"><span>Home</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link"><span>Articles</span></a>
+          <nav class="submenu">
+            <ul class="submenu-items">
+              <li class="submenu-item"><a href="#" class="submenu-link">Article #1</a></li>
+              <li class="submenu-item"><a href="#" class="submenu-link">Article #2</a></li>
+              <li class="submenu-item"><a href="#" class="submenu-link">Article #3</a></li>
+              <li class="submenu-item"><a href="#" class="submenu-link">Article #4</a></li>
+              <li class="submenu-item"><a href="#" class="submenu-link">Article #5</a></li>
+              <li class="submenu-item"><a href="#" class="submenu-link">Article #6</a></li>
+            </ul>
+          </nav>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link"><span>Administration</span></a>
+          <nav class="submenu">
+            <ul class="submenu-items">
+              <li class="submenu-item"><a href="#" class="submenu-link">Crée un article</a></li>
+              <li class="submenu-item"><a href="#" class="submenu-link">Supprimer un article</a></li>
+              <li class="submenu-item"><hr class="submenu-seperator" /></li>
+              <li class="submenu-item"><a href="#" class="submenu-link">Modifier un article</a></li>
+              <li class="submenu-item"><a href="#" class="submenu-link">Brouillon</a></li>
+              <li class="submenu-item"><a href="#" class="submenu-link">Admin</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link"><span>Connexion</span></a>
+            <nav class="submenu">
+              <ul class="submenu-items">
+                <li class="submenu-item"><a href="#" class="submenu-link">About</a></li>
+                <li class="submenu-item"><a href="#" class="submenu-link">Contact</a></li>
+                <li class="submenu-item"><hr class="submenu-seperator" /></li>
+                <li class="submenu-item"><a href="#" class="submenu-link">Support</a></li>
+                <li class="submenu-item"><a href="#" class="submenu-link">FAQs</a></li>
+                <li class="submenu-item"><a href="#" class="submenu-link">Crée un compte</a></li>
+              </ul>
+            </nav>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <h2 class="ssTitre">No speeches. Short speech</h2>
+    <p class="pounds">For pounds...foooour pounds</p>
+
+    <div class="Article">
+      <div class="article1">
+        <h2 class="titreArticle">Php 7: La nouvelle version de php passer au crible</h2>
+        <br>
+        <img class="imgArticle1" src="https://laracasts.com/images/series/circles/php-7-up-and-running.png"/>
+
+        <p class="txtArticle1">Quelles sont les principales évolutions de la nouvelle version du langage de script serveur ?
+          Quel apport en termes de performance ? Le dossier de la rédaction sur PHP 7.</p>
+          <p>La version finale de PHP 7 est sortie en décembre 2015 (lire l'annonce officielle sur php.net). Elle est livrée avec une nouvelle version du Zend Engine. Un manuel de migration a été publié par le site du projet open source.
+            <br>
+
+            <p class="txtArticle2">Le projet PHP vient par ailleurs de livrer PHP 7.0.12 - qui corrige plusieurs bugs de sécurité. La Release Candidate 6 de PHP 7.1 est aussi disponible. PHP 7.1 a pour but d'introduire quelques éléments complémentaires à PHP 7 :
+              le support des Server Push via curl HTTP/2 et des types nullables par exemple (voir la liste complète des évolutions sur le site du projet PHP).
+              Les performances du langage doivent aussi être optimisées pour l'occasion.</p>
+            </div>
+
+            <hr></hr>
+
+
+            <div class="Article2">
+              <h2 class="titreArticle2">Javascript : Et si javascript allait droit dans le mur</h2>
+              <br>
+              <img class="imgArticle2" src="https://www.stimulsoft.com/images/products/reports-js/js.png"/>
+
+              <p class="txtArticle3">Cette dépêche pose la question de l’avenir du JavaScript. Celui‐-ci continue de gagner en popularité,
+                mais aussi en complexité. L’auteur du journal a étudié d’autres langages encore peu connus (Elixir, Elm, Pony, Oden et Crystal) et ceux‐ci lui ont fait sauter aux yeux les défauts du JavaScript.
+                Il s’interroge donc sur le futur de ce langage.</p><br>
+
+                <p class="txtArticle4">Dans les commentaires du journal, de nombreux développeurs ont fait un retour sur leur expérience. Certains apprécient le JavaScript (souvent, un sous‐ensemble de ce langage qui va à l’encontre des dernières nouveautés).
+                   D’autres, souhaiteraient fortement s’en débarrasser, mais quasiment tous sont d’accord sur le fait qu’il va rester grâce à son monopole sur les navigateurs).
+                  Certains ont encouragé à essayer leur langage de prédilection : Go, OCaml, ClojureScript, etc.
+                  Enfin, on peut également retrouver un certain espoir avec WebAssembly (le successeur d’asm.js), qui permettrait à de nombreux langages d’être compilés vers la plate‐forme Web.</p>
+                </div>
+
+              </div>
+
+              <button class="btn" type="button" name="button" >Tous les articles</button>
+
+              <footer>
+                <div class="txtFooter">
+                  <p>MADE WITH LOVE BY SIMPLON-CO</p>
+
+                </div>
+              </footer>
+
+              <script src="index.js"></script>
+            </body>
+            </html>
